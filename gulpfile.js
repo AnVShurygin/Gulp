@@ -14,7 +14,7 @@ const autoprefixer = require("gulp-autoprefixer");
 
 // Cleaning up the build folder
 const cleanDistFolder = () => {
-  return src("dist").pipe(clean());
+  return src("dist", { allowEmpty: true }).pipe(clean());
 };
 
 // Compiling fonts TTF -> WOFF2

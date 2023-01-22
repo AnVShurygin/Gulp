@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: $default-font-family;
+  font-size: $default-size;
+  font-weight: $default-font-weight;
+  font-style: normal;
+  line-height: $default-line-height;
+  color: $default-color;
+  background-color: $default-background;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

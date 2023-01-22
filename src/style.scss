@@ -1,24 +1,6 @@
+@import "scss/variables";
 @import "scss/fonts";
 @import "scss/reset";
+@import "scss/layout";
 @import "blocks/header/header";
 @import "blocks/footer/footer";
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.5;
-  color: black;
-  background-color: white;
-  overflow-x: hidden;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
